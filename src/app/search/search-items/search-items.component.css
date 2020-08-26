@@ -1,0 +1,36 @@
+.card{
+    width: 15vw;
+    height: auto;
+    padding: 2%;
+    background-color: antiquewhite;
+    margin:2em;
+    text-align:center;
+}
+.add:hover{
+    background-color: rgb(245, 220, 187);
+}
+
+.delete:hover{
+    background-color: rgb(202, 66, 66);
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+mat-card-actions{
+   margin:auto;
+   text-align: center;
+}
+
+.timings{
+    font-weight: 450;
+}
+
+img{
+    width: 15vw;
+    height: 15vh;
+}

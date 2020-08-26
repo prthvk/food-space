@@ -1,0 +1,48 @@
+<section>
+    <mat-toolbar color='primary'>
+        <img src="assets/ddd.jpg" alt="Company Logo">
+        <!-- <mat-icon><img src="/Users/thelegend/Desktop/Assignments/Angular/spa/src/assets/booksLogo.png" alt="Books Logo"></mat-icon> -->
+        <a routerLink='/'><span class="heading">FoodSpace</span> </a>
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+    </mat-toolbar>
+
+    <mat-menu #menu="matMenu">
+        <a routerLink='/login'><button mat-menu-item value="login">
+                <span>Login</span>
+            </button>
+        </a>
+        <a routerLink='/favourites'><button mat-menu-item value="favourites">
+                <span>Favourites</span>
+            </button>
+        </a>
+        <a routerLink='/dashboard'><button mat-menu-item value="logout" (click)="logout()">
+                <span>Logout</span>
+            </button>
+        </a>
+    </mat-menu>
+</section>
+
+<!-- <section>
+    <mat-toolbar color='primary'>
+        <img src="/Users/thelegend/Desktop/Assignments/Angular/spa/src/assets/booksLogo.svg" alt="Books Logo">
+        <mat-icon><img src="/Users/thelegend/Desktop/Assignments/Angular/spa/src/assets/booksLogo.png" alt="Books Logo"></mat-icon>
+        <a routerLink='/'><span class="heading">FoodSpace</span> </a>
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+    </mat-toolbar>
+
+    <mat-menu #menu="matMenu">
+        <a routerLink='/favourites'><button mat-menu-item value="login">
+                <span>Favourites</span>
+            </button>
+        </a>
+        <a routerLink='/dashboard'><button mat-menu-item value="login">
+                <span>Logout</span>
+            </button>
+        </a>
+    </mat-menu>
+
+</section> -->

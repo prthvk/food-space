@@ -1,0 +1,25 @@
+<section class="items">
+    <mat-card class="card" *ngFor="let res of topdata">
+        <mat-card-header>
+            <!-- <div mat-card-avatar class="example-header-image"></div> -->
+            <mat-card-title>{{res.restaurant.name}}</mat-card-title>
+            <mat-card-subtitle>{{res.restaurant.cuisines}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image [src]="res.restaurant.featured_image" alt="Fetaured Image">
+        <mat-card-content>
+            <p>{{res.restaurant.location.address}}</p>
+            <p class="timings">{{res.restaurant.timings}}</p>
+            <p>Average cost for two: Rs.{{res.restaurant.average_cost_for_two}}</p>
+            <p>User Ratings:
+            <span style="font-weight: 500;">{{res.restaurant.user_rating.aggregate_rating}}</span>
+            </p>
+            <br>
+            <p style="text-align: center; font-weight: 450;font-size: large;">
+                "{{res.restaurant.user_rating.rating_text}}"</p>
+        </mat-card-content>
+        <mat-card-actions>
+            <!-- <button mat-button class="add">Add to Favourites</button> -->
+            <button mat-button class="delete" (click)="delitm(res)">Remove form Favourites</button>
+        </mat-card-actions>
+    </mat-card>
+</section>

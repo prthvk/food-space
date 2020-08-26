@@ -1,0 +1,11 @@
+<section>
+    <form class="example-form">
+        <mat-form-field class="example-full-width">
+            <mat-label>Search by Place</mat-label>
+            <input matInput placeholder="Search by Place" name="search" [(ngModel)]="city">
+        </mat-form-field>
+        <a routerLink='/search-items'><button mat-raised-button color="primary" (click)="getAuthBooks()">Search</button></a>
+    </form>
+    <!-- <p style="text-align: center;">Showing results for {{city}}</p> -->
+    <app-search-items [topdata]="cityRes"></app-search-items>
+</section>

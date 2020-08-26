@@ -1,0 +1,28 @@
+
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    margin:auto;
+    padding:2em;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  ::-webkit-input-placeholder {
+    text-align: center;
+ }
+ mat-label{
+    text-align: center;
+    justify-content: center;
+ }
+
+ button{
+     font-weight: 350;
+ }
+
+ section{
+     text-align: center;
+ }

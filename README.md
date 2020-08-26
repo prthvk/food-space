@@ -1,3 +1,16 @@
+## About the Application
+
+This is an Single Page Application that uses zomato api to get top restaurants details in a city and also search for for restaurants in a particular city.
+
+The login details are given below
+username - admin
+password - pass
+
+You can sign in and add the restaurants in the favourites page.
+
+
+P.S. - I had started with JustBooks api but the api itself was too limited and couldn't do more with it. So, I asked for a change of api and did with zomato api.
+
 # Spa
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
