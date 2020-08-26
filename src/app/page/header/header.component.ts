@@ -20,6 +20,9 @@ export class HeaderComponent implements OnInit {
     if(this.authserv.isAuthenticated()){
       console.log("the token is",this.authserv.getToken());
       this.authserv.deleteToken()
+      alert("You are now logged out")
+    }else{
+      alert("You have not logged in")
     }
   }
 }

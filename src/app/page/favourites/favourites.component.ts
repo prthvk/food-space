@@ -26,6 +26,7 @@ export class FavouritesComponent implements OnInit {
     this.favserv.delete(itm).subscribe(
       data=>{
         console.log("items after delete",data);
+        this.router.navigate(['/favourites']);
       }
     )
   }

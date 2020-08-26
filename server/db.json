@@ -4,144 +4,43 @@
       "restaurant": {
         "R": {
           "has_menu_status": {
-            "delivery": -1,
+            "delivery": 1,
             "takeaway": -1
           },
-          "res_id": 52098,
+          "res_id": 50314,
           "is_grocery_store": false
         },
         "apikey": "ae6967526646bd6de0576e8425a91293",
-        "id": "52098",
-        "name": "Brahmin's Coffee Bar",
-        "url": "https://www.zomato.com/bangalore/brahmins-coffee-bar-basavanagudi?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "id": "50314",
+        "name": "Corner House Ice Cream",
+        "url": "https://www.zomato.com/bangalore/corner-house-ice-cream-indiranagar?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
         "location": {
-          "address": "Ranga Rao Road, Near Shankar Mutt, Shankarapura, Near Basavanagudi, Bangalore",
-          "locality": "Basavanagudi",
+          "address": "3283, 2nd Stage, Off Double Road, Indiranagar, Bangalore",
+          "locality": "Indiranagar",
           "city": "Bangalore",
           "city_id": 4,
-          "latitude": "12.9540323329",
-          "longitude": "77.5689482689",
+          "latitude": "12.9702176959",
+          "longitude": "77.6376144961",
           "zipcode": "0",
           "country_id": 1,
-          "locality_verbose": "Basavanagudi, Bangalore"
+          "locality_verbose": "Indiranagar, Bangalore"
         },
         "switch_to_order_menu": 0,
-        "cuisines": "South Indian",
-        "timings": "6 AM to 12 Noon, 3 PM to 7 PM (Mon-Sat), Sun Closed",
-        "average_cost_for_two": 100,
+        "cuisines": "Ice Cream, Desserts",
+        "timings": "11 AM to 11:30 PM",
+        "average_cost_for_two": 350,
         "price_range": 1,
         "currency": "Rs.",
         "highlights": [
-          "Dinner",
-          "Lunch",
-          "Cash",
-          "Takeaway Available",
-          "Breakfast",
-          "Indoor Seating",
-          "Self Service",
-          "Pure Veg"
-        ],
-        "offers": [],
-        "opentable_support": 0,
-        "is_zomato_book_res": 0,
-        "mezzo_provider": "OTHER",
-        "is_book_form_web_view": 0,
-        "book_form_web_view_url": "",
-        "book_again_url": "",
-        "thumb": "https://b.zmtcdn.com/data/res_imagery/52098_RESTAURANT_4bb6561a74e91f9e381e92e2a6185170.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
-        "user_rating": {
-          "aggregate_rating": "4.9",
-          "rating_text": "Excellent",
-          "rating_color": "3F7E00",
-          "rating_obj": {
-            "title": {
-              "text": "4.9"
-            },
-            "bg_color": {
-              "type": "lime",
-              "tint": "800"
-            }
-          },
-          "votes": 2948
-        },
-        "all_reviews_count": 1224,
-        "photos_url": "https://www.zomato.com/bangalore/brahmins-coffee-bar-basavanagudi/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
-        "photo_count": 709,
-        "menu_url": "https://www.zomato.com/bangalore/brahmins-coffee-bar-basavanagudi/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
-        "featured_image": "https://b.zmtcdn.com/data/res_imagery/52098_RESTAURANT_4bb6561a74e91f9e381e92e2a6185170.jpg",
-        "has_online_delivery": 0,
-        "is_delivering_now": 0,
-        "store_type": "",
-        "include_bogo_offers": true,
-        "deeplink": "zomato://restaurant/52098",
-        "is_table_reservation_supported": 0,
-        "has_table_booking": 0,
-        "events_url": "https://www.zomato.com/bangalore/brahmins-coffee-bar-basavanagudi/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-        "phone_numbers": "+91 9845030234",
-        "all_reviews": {
-          "reviews": [
-            {
-              "review": []
-            },
-            {
-              "review": []
-            },
-            {
-              "review": []
-            },
-            {
-              "review": []
-            },
-            {
-              "review": []
-            }
-          ]
-        },
-        "establishment": [
-          "Quick Bites"
-        ],
-        "establishment_types": []
-      },
-      "id": 5
-    },
-    {
-      "restaurant": {
-        "R": {
-          "has_menu_status": {
-            "delivery": -1,
-            "takeaway": -1
-          },
-          "res_id": 55050,
-          "is_grocery_store": false
-        },
-        "apikey": "ae6967526646bd6de0576e8425a91293",
-        "id": "55050",
-        "name": "O.G. Variar & Sons",
-        "url": "https://www.zomato.com/bangalore/o-g-variar-sons-rajajinagar?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-        "location": {
-          "address": "12th Main, 2nd Block, Rajajinagar, Bangalore",
-          "locality": "Rajajinagar",
-          "city": "Bangalore",
-          "city_id": 4,
-          "latitude": "12.9915357310",
-          "longitude": "77.5545823574",
-          "zipcode": "",
-          "country_id": 1,
-          "locality_verbose": "Rajajinagar, Bangalore"
-        },
-        "switch_to_order_menu": 0,
-        "cuisines": "Bakery, Desserts",
-        "timings": "9 AM to 9 PM (Mon, Wed-Sun), Tue Closed",
-        "average_cost_for_two": 200,
-        "price_range": 1,
-        "currency": "Rs.",
-        "highlights": [
-          "Standing Tables",
-          "Takeaway Available",
+          "Delivery",
           "Debit Card",
+          "No Alcohol Available",
           "Cash",
+          "Takeaway Available",
           "Credit Card",
-          "Desserts and Bakes"
+          "Air Conditioned",
+          "Desserts and Bakes",
+          "Indoor Seating"
         ],
         "offers": [],
         "opentable_support": 0,
@@ -150,36 +49,38 @@
         "is_book_form_web_view": 0,
         "book_form_web_view_url": "",
         "book_again_url": "",
-        "thumb": "https://b.zmtcdn.com/data/res_imagery/55050_RESTAURANT_8506bdb5815fe9d0c1a55208f731c839.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+        "thumb": "https://b.zmtcdn.com/data/pictures/5/52105/56f4bf684e1e2a54a7a43b2e0ffb53c5.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
         "user_rating": {
-          "aggregate_rating": "4.9",
+          "aggregate_rating": "4.8",
           "rating_text": "Excellent",
           "rating_color": "3F7E00",
           "rating_obj": {
             "title": {
-              "text": "4.9"
+              "text": "4.8"
             },
             "bg_color": {
               "type": "lime",
               "tint": "800"
             }
           },
-          "votes": 1391
+          "votes": 13374
         },
-        "all_reviews_count": 396,
-        "photos_url": "https://www.zomato.com/bangalore/o-g-variar-sons-rajajinagar/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
-        "photo_count": 173,
-        "menu_url": "https://www.zomato.com/bangalore/o-g-variar-sons-rajajinagar/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
-        "featured_image": "https://b.zmtcdn.com/data/res_imagery/55050_RESTAURANT_8506bdb5815fe9d0c1a55208f731c839.jpg",
-        "has_online_delivery": 0,
-        "is_delivering_now": 0,
+        "all_reviews_count": 938,
+        "photos_url": "https://www.zomato.com/bangalore/corner-house-ice-cream-indiranagar/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+        "photo_count": 972,
+        "menu_url": "https://www.zomato.com/bangalore/corner-house-ice-cream-indiranagar/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+        "featured_image": "https://b.zmtcdn.com/data/pictures/5/52105/56f4bf684e1e2a54a7a43b2e0ffb53c5.jpg",
+        "has_online_delivery": 1,
+        "is_delivering_now": 1,
         "store_type": "",
         "include_bogo_offers": true,
-        "deeplink": "zomato://restaurant/55050",
+        "deeplink": "zomato://restaurant/50314",
+        "order_url": "https://www.zomato.com/bangalore/corner-house-ice-cream-indiranagar/order?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "order_deeplink": "",
         "is_table_reservation_supported": 0,
         "has_table_booking": 0,
-        "events_url": "https://www.zomato.com/bangalore/o-g-variar-sons-rajajinagar/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
-        "phone_numbers": "080 23324808",
+        "events_url": "https://www.zomato.com/bangalore/corner-house-ice-cream-indiranagar/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+        "phone_numbers": "+91 9880846251",
         "all_reviews": {
           "reviews": [
             {
@@ -200,11 +101,11 @@
           ]
         },
         "establishment": [
-          "Bakery"
+          "Dessert Parlour"
         ],
         "establishment_types": []
       },
-      "id": 6
+      "id": 1
     }
   ]
 }
