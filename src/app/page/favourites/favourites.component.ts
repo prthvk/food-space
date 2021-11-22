@@ -23,6 +23,10 @@ export class FavouritesComponent implements OnInit {
   }
 
   delitm(itm){
+    if(!this.authservice.isAuthenticated){
+      alert("You are not logged in")
+      this.router.navigate(['/login'])
+    }
     this.favserv.delete(itm).subscribe(
       data=>{
         console.log("items after delete",data);

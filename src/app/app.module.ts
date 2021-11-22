@@ -18,10 +18,12 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatCardModule } from '@angular/material/card';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DscComponent } from './dsc/dsc.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    DscComponent,
   ],
   imports: [
     BrowserModule,
