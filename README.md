@@ -9,7 +9,7 @@ password - pass
 You can sign in and add the restaurants in the favourites page.
 
 
-P.S. - I had started with JustBooks api but the api itself was too limited and couldn't do more with it. So, I asked for a change of api and did with zomato api.
+P.S. - Check the Zomato developer site for API keys as they could have expired
 
 # Spa
 
